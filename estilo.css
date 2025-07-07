@@ -1,0 +1,31 @@
+body {
+    background-color:rgb(228, 217, 255) ;
+}
+
+h1 {
+    color: darkred;
+    text-align: center;
+}
+
+p {
+    font-size:larger;
+    text-align: justify;
+}
+
+ul li{
+    padding: 6px;
+}
+
+img {
+    border-radius: 1.5cap;
+    width: 400px;
+}
+
+table{
+    background-color: lightgreen;
+    border: 1px solid #000;
+}
+
+a:hover {
+    color: coral;
+}
