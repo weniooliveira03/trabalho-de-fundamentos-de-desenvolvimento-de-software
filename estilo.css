@@ -1,9 +1,14 @@
 body {
-    background-color:rgb(228, 217, 255) ;
+    background-color:rgb(255, 245, 203);
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-block-end: 30px;
 }
 
-h1 {
-    color: darkred;
+h1, h2{
+    color: rgb(119, 8, 163);
     text-align: center;
 }
 
@@ -12,7 +17,8 @@ p {
     text-align: justify;
 }
 
-ul li{
+li{
+    font-size: large;
     padding: 6px;
 }
 
@@ -21,11 +27,27 @@ img {
     width: 400px;
 }
 
-table{
-    background-color: lightgreen;
+table, th{
+    background-color: rgb(245, 218, 255);
     border: 1px solid #000;
+    margin-bottom: 30px;
+}
+
+a {
+    font-size: larger;
+    color: rgb(119, 8, 163);
 }
 
 a:hover {
-    color: coral;
+    color: orange;
+}
+
+button {
+    background-color: rgb(119, 8, 163);
+    color: orange;
+    font-size: larger;
+    border-radius: 0.5cap;
+}
+div {
+    text-align: center;
 }
